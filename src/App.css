@@ -1,0 +1,47 @@
+body{
+    background: url(./images/weather\ cover.jpg);
+    background-position: center; /* Center the image */
+
+
+}
+.main{
+    margin: 50px 50px;
+    background: url(./images/weather-img-blur.jpg);
+    height:490px;
+    background-position: center; /* Center the image */
+    box-shadow: 5px 5px 5px grey;
+    
+
+}
+
+
+
+.form-container input{
+    margin-left:50px;
+
+    
+    
+ display:inline;
+    
+    background: transparent;
+    border-top: transparent !important;
+    border-left: transparent !important;
+    border-right: transparent !important;
+    border-bottom: 1px solid !important;
+    font-weight: 200;
+    color: black;
+    padding-left: 0;
+  
+}
+button{
+    margin-left:50px;
+    margin-top:40px;
+    background-color: lightgreen;
+}
+.weather-results{
+
+    margin:100px 100px;
+    font-size: 1.5em;
+    color:black;
+    
+}
